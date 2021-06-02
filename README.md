@@ -1,4 +1,4 @@
-# Typescript create express API
+# Create typescript express API
 
 A CLI to automatically clone the [Typescript Express API Starter](https://github.com/dewhurstwill/typescript-express-api-starter).
 
@@ -7,16 +7,16 @@ A CLI to automatically clone the [Typescript Express API Starter](https://github
 Install the CLI globally OR use npx:
 
 ```sh
-npm install -g typescript-create-express-api
+npm install -g create-typescript-express-api
 ```
 
 ## Usage
 
 ```sh
 # with global install
-typescript-create-express-api name-of-app
+create-typescript-express-api name-of-app
 # with npx
-npx typescript-create-express-api name-of-app
+npx create-typescript-express-api name-of-app
 ```
 
 This will create a directory with the given name, clone the [Typescript Express API Starter](https://github.com/dewhurstwill/typescript-express-api-starter) repo into it, and install dependencies.
