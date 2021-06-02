@@ -21,6 +21,8 @@ npx typescript-create-express-api name-of-app
 
 This will create a directory with the given name, clone the [Typescript Express API Starter](https://github.com/dewhurstwill/typescript-express-api-starter) repo into it, and install dependencies.
 
+> Note: You will need to use the clone repo method if you are using windows
+
 ## Credits
 
 Credit for the original javascript version of this go to:
