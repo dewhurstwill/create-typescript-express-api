@@ -6,11 +6,11 @@ const name = process.argv[2];
 if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
   return console.log(`
   Invalid directory name.
-  Usage: create-express-api name-of-api  
+  Usage: create-typescript-express-api name-of-api  
 `);
 }
 
-const repoURL = 'https://github.com/w3cj/express-api-starter.git';
+const repoURL = 'https://github.com/dewhurstwill/typescript-express-api-starter.git';
 
 runCommand('git', ['clone', repoURL, name])
   .then(() => {
