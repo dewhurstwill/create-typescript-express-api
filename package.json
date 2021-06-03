@@ -2,7 +2,7 @@
   "name": "create-typescript-express-api",
   "version": "1.0.3",
   "bin": {
-    "create-express-api": "index.js"
+    "create-typescript-express-api": "index.js"
   },
   "description": "A CLI to automatically clone the Typescript Express API Starter",
   "main": "index.js",
