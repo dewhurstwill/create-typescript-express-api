@@ -1,6 +1,6 @@
 {
   "name": "create-typescript-express-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": {
     "create-typescript-express-api": "index.js"
   },
