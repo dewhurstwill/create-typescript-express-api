@@ -17,7 +17,7 @@ runCommand('git', ['clone', repoURL, name])
     return runCommand('rm', ['-rf', `${name}/.git`]);
   }).then(() => {
     console.log('Installing dependencies...');
-    return runCommand('npm', ['install'], {
+    return runCommand('yarn', ['install'], {
       cwd: process.cwd() + '/' + name
     });
   }).then(() => {
@@ -25,7 +25,7 @@ runCommand('git', ['clone', repoURL, name])
     console.log('');
     console.log('To get started:');
     console.log('cd', name);
-    console.log('npm run start:dev');
+    console.log('yarn run start:dev');
   });
 
 function runCommand(command, args, options = undefined) {
